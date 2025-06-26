@@ -58,15 +58,15 @@ The MVP highlights some standalone features:
 
 ## Technologies Used
 
-- **Frontend**: React / HTML (MVP)
-- **Backend**: Python (Flask / FastAPI)
-- **Database**: SQLite / PostgreSQL (SQLAlchemy)
+- **Frontend**: HTML (MVP)
+- **Backend**: Python 
+- **Database**: SQLite (Planned)
 - **AI/ML**:
   - IBM Granite AI
   - HuggingFace Transformers
-  - FAISS / ChromaDB (for RAG)
+  - FAISS (for RAG)
 - **Versioning**: Git + Git LFS
-- **Data**: Simulated HR analytics time series
+- **Data Source**: Simulated datasets generated using IBM Cloud (Watson Studio )
 
 ##  Future Vision
 
