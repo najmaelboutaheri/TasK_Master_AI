@@ -80,7 +80,5 @@ Our long-term goal is to build a human-centric, AI-powered task management syste
 
 This is an open-ended project feel free to suggest improvements, fork the repo, or reach out with ideas!
 
----
 
-Let me know if you'd like help uploading this to GitHub or adjusting anything else (like screenshots, badges, setup instructions, etc.)!
 
