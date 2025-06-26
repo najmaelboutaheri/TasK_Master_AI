@@ -1,122 +1,86 @@
 # TaskMaster-AI
 
-TaskMaster-AI is an intelligent task management system designed to empower employees by aligning task selection with individual skills and interests. It leverages AI to enhance engagement, discover hidden talents, and optimize team performance — driving both personal growth and organizational efficiency.
+**TaskMaster-AI** is a prototype of an intelligent task management platform designed to empower employees by aligning task selection with individual skills and interests. It integrates AI to promote engagement, uncover hidden talent, and optimize team performance — aiming to support both personal growth and organizational efficiency.
+
+> **Note:** This project is currently under development. The frontend and AI components were built separately as part of an MVP. Full integration between the interface and backend AI features has not yet been completed.
 
 ---
 
-##  Features
+## Current Project Status
 
-###  For Employees
+-  Frontend interface developed separately (React-based MVP)
+-  AI/ML features (task recommendation, RAG architecture, duration prediction) prototyped
+-  No full integration between frontend and backend yet
+-  Future goal: connect all components into a seamless application
+
+---
+
+## Key Features (Planned)
+
+### For Employees
 - Visual task board with AI-estimated difficulty (green = easy, red = hard)
 - Mandatory task highlighting (purple)
-- AI-recommended "top choice" tasks
-- Suggested learning resources for skills development
-- Progress tracking on selected/completed tasks
-- Feedback submission and automatic profile updates
+- "Top choice" task recommendations
+- Suggested learning resources
+- Progress tracking
+- Feedback submission with auto skill updates
 
 ### For Managers
-- Dashboard with team performance metrics
-- Summary of internal and cross-functional contributions
-- NLP feedback analysis for completed tasks
-- AI-assisted task definition and alignment with team skills
-- Team development and efficiency improvement suggestions
+- Dashboard with performance metrics
+- Task contribution summaries
+- NLP-based feedback insights
+- AI-assisted task creation and alignment
+- Suggestions to improve team efficiency
 
 ---
 
-## AI Capabilities (Powered by IBM Granite AI)
+## AI Capabilities (Prototyped)
 
-- Skill inference from unstructured feedback
-- Task description generation and refinement
-- Personalized task recommendations
-- Learning resource suggestion engine
-- Team and performance trend analysis using time series models
-- Identification of hidden talent and skill trends
-
----
-
-##  Demo (MVP) Overview
-
-The MVP showcases the core loop:
-
-- **Employee View**: Task board + AI recommendations
-- **Manager View**: Team task summary and progress
-- **AI Integration**:
-  - Personalized task suggestion
-  - Basic NLP feedback analysis
-- **Machine Learning model**: Visualized predictions of task time duration
-- ## Demo Video URL: https://www.youtube.com/watch?v=sJq-1khWvOI
+- RAG-based task recommendation system
+- Task description generation using IBM Granite AI
+- Feedback-based skill inference
+- Learning resource suggestions via embedding search
+- Task duration prediction using time series simulation
+- Hidden talent detection from historical task data
 
 ---
 
-##  Technologies Used
+## MVP Demo Overview
 
-- **Frontend**: Web interface (React / basic HTML as MVP)
-- **Backend**: Python (Flask/FastAPI)
-- **Database**: SQLite / PostgreSQL (SQLAlchemy ORM)
-- **AI Model**: IBM Granite AI, HuggingFace Embeddings
-- **Vector Store**: FAISS / ChromaDB
-- **Time Series**: Simulated metrics (based on IBM HR Analytics dataset)
-- **Version Control**: Git + Git LFS for large files
+The MVP highlights some standalone features:
 
----
-
-## Downloading and Using Git LFS Files
-
-This repository uses [Git Large File Storage (LFS)](https://git-lfs.github.com/) to manage large files (such as datasets and model files).  
-**You must install Git LFS before cloning or pulling the repository to access these files.**
-
-### 1. Install Git LFS
-
-- **macOS:**  
-  
-bash
-  brew install git-lfs
-
-
-- **Windows:**  
-  Download and run the installer from [git-lfs.github.com](https://git-lfs.github.com/).
-
-- **Linux:**  
-  
-bash
-  sudo apt-get install git-lfs
-
-
-Or see [official installation instructions](https://git-lfs.github.com/) for more options[3][4][5].
-
-### 2. Initialize Git LFS
-
-After installing, run this command **once** (per machine):
-
-bash
-git lfs install
-
-This sets up Git LFS for your user account[2][3][5].
-
-### 3. Clone the Repository
-
-Clone as usual:
-
-bash
-git clone <repository-url>
-cd <repository-directory>
-
-
-Git LFS will automatically download the required large files referenced in the repository[5][6].
-
-### 4. Pulling LFS Files After Cloning
-
-If you have already cloned the repository but do not see the large files (only pointer files), run:
-
-bash
-git lfs pull
-
-This command downloads all Git LFS files referenced by your current checkout[8].
-
-> **Note:** Downloading the repository as a ZIP file will not include Git LFS files. Always use git clone and ensure Git LFS is installed[9].
+- **Frontend**: Employee task view with static AI indicators
+- **AI Models**: Independent prototypes for task recommendation and NLP feedback
+- **Machine Learning**: Duration prediction visualizations
+- **Demo Video**: [Watch here](https://www.youtube.com/watch?v=sJq-1khWvOI)
 
 ---
 
-By following these steps, users will be able to access all large files managed by Git LFS in your repository.
-## The Future Goal
-Create a future-of-work task application that blends task autonomy, skill development, and AI insights — making workplaces more human-centric, data-informed, and growth-driven.
+## Technologies Used
+
+- **Frontend**: React / HTML (MVP)
+- **Backend**: Python (Flask / FastAPI)
+- **Database**: SQLite / PostgreSQL (SQLAlchemy)
+- **AI/ML**:
+  - IBM Granite AI
+  - HuggingFace Transformers
+  - FAISS / ChromaDB (for RAG)
+- **Versioning**: Git + Git LFS
+- **Data**: Simulated HR analytics time series
+
+##  Future Vision
+
+Our long-term goal is to build a human-centric, AI-powered task management system that:
+- Enables task autonomy
+- Promotes skill development
+- Surfaces hidden strengths
+- Enhances organizational performance
+
+## Contributions & Feedback
+
+This is an open-ended project feel free to suggest improvements, fork the repo, or reach out with ideas!
+
+---
+
+Let me know if you'd like help uploading this to GitHub or adjusting anything else (like screenshots, badges, setup instructions, etc.)!
+
