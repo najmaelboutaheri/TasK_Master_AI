@@ -1,6 +1,8 @@
-# TaskMaster-AI
+## **TaskMaster-AI** 
 
-**TaskMaster-AI** is a prototype of an intelligent task management platform designed to empower employees by aligning task selection with individual skills and interests. It integrates AI to promote engagement, uncover hidden talent, and optimize team performance — aiming to support both personal growth and organizational efficiency.
+is a prototype of an intelligent task management platform designed to empower employees by aligning task selection with individual skills and interests. It integrates AI to promote engagement, uncover hidden talent, and optimize team performance — aiming to support both personal growth and organizational efficiency.
+
+This project was developed as part of the **IBM Hackathon Program**, leveraging IBM Cloud technologies and Granite AI models to explore innovative solutions for the future of work.
 
 > **Note:** This project is currently under development. The frontend and AI components were built separately as part of an MVP. Full integration between the interface and backend AI features has not yet been completed.
 
@@ -79,6 +81,16 @@ Our long-term goal is to build a human-centric, AI-powered task management syste
 ## Contributions & Feedback
 
 This is an open-ended project feel free to suggest improvements, fork the repo, or reach out with ideas!
+
+## Team
+
+This project was developed as part of the **IBM Hackathon Program**.
+
+**Team Members**:
+- Najma EL boutaheri
+- Emma Dean  
+- Georges Michel
+
 
 
 
