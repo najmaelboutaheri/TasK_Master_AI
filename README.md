@@ -10,7 +10,7 @@ This project was developed as part of the **IBM Hackathon Program**, leveraging 
 
 ## Current Project Status
 
--  Frontend interface developed separately (React-based MVP)
+-  Frontend interface developed separately 
 -  AI/ML features (task recommendation, RAG architecture, duration prediction) prototyped
 -  No full integration between frontend and backend yet
 -  Future goal: connect all components into a seamless application
